@@ -1,0 +1,271 @@
+@media (max-width: 480px) {
+    .estrutura-botao-01 {
+        width: 110px;
+        height: 30px;
+        font-size: 0.7em;
+        font-weight: lighter;
+    }
+
+    .tamanho-icone-01 {
+        width: 13px;
+    }
+
+    .conteudo-modal {
+        width: 80%;
+    }
+    .fechar-modal {
+        right: 55px;
+        top: 30px;
+    }
+    /* =========SECAO PRINCIPAL========== */
+    .logo-menu {
+        width: 20%;
+        margin: 2% 0 2% 5%;
+    }
+
+    .opcoes-menu-index {
+        margin: 2% 5% 2% 0;
+        gap: 10px;
+        font-size: 0.7em;
+        font-weight: lighter;
+    }
+
+    #botao-cadastro-menu {
+        width: 80px;
+        height: 28px;
+        background-color: var(--color-primary);
+        color: var(--color-secundary);
+    }
+
+    .div-espacamento {
+        height: 100px;
+    }
+
+    .secao-principal {
+        height: 360px;
+    }
+
+    #logo-secao-principal {
+        width: 15%;
+        top: 115px;
+    }
+
+    .container-texto-secao-principal {
+        top: 170px;
+    }
+
+    .titulo-secao-principal {
+        font-size: 1.15em;
+    }
+
+    .texto-secao-principal {
+        width: 300px;
+        font-weight: 400;
+        font-size: 0.7em;
+    }
+
+    .container-botoes-secao-principal {
+        top: 270px;
+        gap: 8px;
+    }
+
+    .botao-secao-principal {
+        /* width: 100px;
+        height: 25px;
+        font-size: 0.7em;
+        font-weight: lighter; */
+        color: var(--color-primary);
+        background-color: var(--color-secundary);
+    }
+
+    #efeito-nuvem-secao-principal {
+        top: 86%;
+    }
+    /* =================== */
+
+    /* =========SEGUNDA SECAO========== */
+
+    #titulo-segunda-secao {
+        margin: 7% 7% 12% 7%;
+        font-size: 1.28em;
+    }
+
+    .container-cards {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .icone-card {
+        align-items: center;
+        width: 50px;
+        height: 50px;
+        margin-top: -30px;
+        bottom: auto;  
+    }
+    
+    .icone-card svg {
+        margin-top: 0;
+    }
+    
+    .card {
+        width: 240px;
+        height: 175px;
+        margin-bottom: 15%;
+        padding: 2% 5%;
+    }
+
+    .titulo-card{
+        margin-top: 20px;
+        font-size: 1em;
+    }
+    .descricao-card {
+        font-size: 0.8em;
+    }
+    
+    #texto-segunda-secao {
+        margin: 7% 7% 0 7%;
+        font-size: 1.15em;
+    }
+    /* =================== */
+
+    /* =========TERCEIRA SECAO========== */
+
+    #nuvem-02, #linha-01, #linha-02, .pins, #new-adult, #terror {
+        display: none;
+    }
+
+    .container-generos-literarios.terciary-color-background {
+        background-color: transparent;
+    }
+
+    .nome-genero-literario {
+        margin: 50px 0 20px 0;
+        position: relative;
+        height: auto;
+        width: auto;
+        background-color: transparent;
+        border: none;
+    }
+
+    .nome-genero-literario h4 {
+        font-size: 1.15em;
+    }
+
+    .genero-literario {
+        width: 114px;
+        height: 31px;
+        font-size: 1em;
+    }
+
+    .container-nuvens {
+        justify-content: center;
+    }
+
+    #nuvem-01 {
+        display: flex;
+        justify-content: center;
+        width: 80%;
+        align-self: center;
+    }
+
+    #romance {
+        border-color: #87A6EB;
+    }
+    /* .fourth-section {
+        
+    } */
+    .container-quarta-secao {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #logo-quarta-secao {
+        width: 60%;
+        margin-bottom: 20px;
+    }
+
+    #texto-quarta-secao {
+        width: auto;
+        font-size: 1.15em;
+
+    }
+
+    .botao-quarta-secao {
+        background-color: var(--color-terciary);
+        color: var(--color-secundary);
+    }
+
+    .container-informacao {
+        padding-left: 0;
+    }
+
+    .efeito-nuvem-footer{
+        margin-bottom: -40px;
+    }
+
+    .secao-footer {
+        padding: 0 5% 5% 5%;
+    }
+
+    .menu-footer {
+        font-size: 0.8em;
+        grid-template-columns: 90px 50px;
+    }
+
+    .direitos-autorais-footer {
+        margin-top: 15px;
+        font-size: 0.8em;
+        text-align: center;
+    }
+
+    .redes-sociais {
+        width: 25px;
+        height: 25px;
+    }
+
+    .redes-sociais-footer {
+        gap: 5px;
+        grid-template-columns: repeat(4, 25px);
+    }
+
+    .logo_footer {
+        margin-top: 0;
+        width: 50%;
+    }
+
+    .alinhar-logo-footer {
+        display: flex;
+        justify-content: right;
+        align-items: center;
+    }
+
+
+    .sobre-nos {
+        padding: 20px 30px;
+        width: 312px;
+        height: 550px;
+    }
+
+    .sobre-nos-conteudo {
+        flex-direction: column-reverse;
+    }
+
+    #sobre-nos-texto {
+        width: auto;
+        gap: 10px;
+        font-size: 0.8em;
+    }
+
+    #sobre-nos_nuvens {
+        width: 100%;
+        justify-content: right;
+    }
+
+    #nuvens-sobre {
+        width: 60%;
+    }
+
+    h2 {
+        font-size: 1.15em;
+    }
+}
