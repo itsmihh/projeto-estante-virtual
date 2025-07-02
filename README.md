@@ -1,4 +1,4 @@
-![Banner do projeto](./assets/imgs/banner.jpg)
+![Banner do projeto](docs/assets/imgs/banner.jpg)
 
 
 ## ⚠️ Aviso
