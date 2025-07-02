@@ -1,3 +1,6 @@
+![Banner do projeto](./assets/imgs/banner.jpg)
+
+
 ## ⚠️ Aviso
 
 ### esse projeto ainda está em fase de desenvolvimento
