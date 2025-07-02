@@ -1,0 +1,1430 @@
+@media (max-width: 480px) {
+
+    .ocultar {
+        display: none;
+    }
+
+    .tamanho-icone-02 {
+        width: 40px;
+    }
+
+    .estrutura-botao-01 {
+        width: 130px;
+        height: 30px;
+        font-size: 0.7em;
+        font-weight: 600;
+    }
+
+    /* =========INDEX E SOBRE========== */
+
+    .titulo-01 {
+        font-size: 0.9em;
+    }
+
+     h2 {
+        font-size: 1.15em;
+    }
+
+    .conteudo-modal {
+        width: 80%;
+    }
+    
+    .fechar-modal {
+        right: 55px;
+        top: 30px;
+    }
+
+    .logo-menu {
+        width: 20%;
+        margin: 2% 0 2% 5%;
+    }
+
+    .opcoes-menu-index {
+        margin: 2% 5% 2% 0;
+        gap: 10px;
+        font-size: 0.7em;
+        font-weight: lighter;
+    }
+
+    #botao-cadastro-menu {
+        width: 80px;
+        height: 28px;
+        background-color: var(--color-primary);
+        color: var(--color-secundary);
+    }
+
+    .div-espacamento {
+        height: 100px;
+    }
+
+    .secao-principal {
+        height: 360px;
+    }
+
+    #logo-secao-principal {
+        width: 15%;
+        top: 115px;
+    }
+
+    .container-texto-secao-principal {
+        top: 170px;
+    }
+
+    .titulo-secao-principal {
+        font-size: 1.15em;
+    }
+
+    .texto-secao-principal {
+        width: 350px;
+        font-weight: 400;
+        font-size: 0.8em;
+    }
+
+    .container-botoes-secao-principal {
+        top: 270px;
+        gap: 8px;
+    }
+
+    .botao-secao-principal {
+        color: var(--color-primary);
+        background-color: var(--color-secundary);
+    }
+
+    #efeito-nuvem-secao-principal {
+        top: 86%;
+    }
+
+    #titulo-segunda-secao {
+        margin: 7% 7% 12% 7%;
+        font-size: 0.9em;
+    }
+
+    .container-cards {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .icone-card {
+        align-items: center;
+        width: 50px;
+        height: 50px;
+        margin-top: -30px;
+        bottom: auto;  
+    }
+    
+    .icone-card svg {
+        margin-top: 0;
+    }
+    
+    .card {
+        width: 240px;
+        height: 175px;
+        margin-bottom: 15%;
+        padding: 2% 5%;
+    }
+
+    .titulo-card{
+        margin-top: 20px;
+        font-size: 0.9em;
+    }
+    .descricao-card {
+        font-size: 0.8em;
+    }
+    
+    #texto-segunda-secao {
+        margin: 7% 7% 0 7%;
+        font-size: 0.9em;
+        width: 300px;
+    }
+
+    .container-generos-literarios.terciary-color-background {
+        background-color: transparent;
+    }
+
+    .nome-genero-literario {
+        margin: 50px 0 20px 0;
+        position: relative;
+        width: 300px;
+        background-color: transparent;
+        border: none;
+    }
+
+    .nome-genero-literario h4 {
+        font-size: 0.9em;
+    }
+
+    .generos-literarios {
+        gap: 5px;
+    }
+
+    .genero-literario {
+        width: 114px;
+        height: 31px;
+        font-size: 0.9em;
+    }
+
+    #suspense {
+        background-color: #6C53D8;
+        color: var(--color-secundary);
+    }
+
+    #fantasia {
+        background-color: #9997E3 ;
+        color: var(--color-secundary);
+    }
+
+    #manga {
+        background-color: #2977EA;
+        color: var(--color-secundary);
+    }
+
+    #romance {
+        background-color: #87A6EB;
+        color: var(--color-secundary);
+    }
+
+    #distopia {
+        background-color: #2594D9;
+        color: var(--color-secundary);
+    }
+
+    #young-adult {
+        background-color: #478EB8;
+        color: var(--color-secundary);
+    }
+
+    .container-nuvens {
+        justify-content: center;
+    }
+
+    #nuvem-01 {
+        display: flex;
+        justify-content: center;
+        width: 80%;
+        align-self: center;
+    }
+
+    .container-quarta-secao {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #logo-quarta-secao {
+        width: 60%;
+        margin-bottom: 20px;
+    }
+
+    #texto-quarta-secao {
+        width: 300px;
+        font-size: 0.9em;
+    }
+
+    .botao-quarta-secao {
+        background-color: var(--color-terciary);
+        color: var(--color-secundary);
+    }
+
+    .container-informacao {
+        padding-left: 0;
+    }
+
+    .efeito-nuvem-footer{
+        margin-bottom: -40px;
+    }
+
+    .secao-footer {
+        padding: 0 5% 5% 5%;
+    }
+
+    .menu-footer {
+        font-size: 0.7em;
+        grid-template-columns: 90px 50px;
+    }
+
+    .direitos-autorais-footer {
+        margin-top: 15px;
+        font-size: 0.8em;
+        text-align: center;
+    }
+
+    .redes-sociais {
+        width: 25px;
+        height: 25px;
+    }
+
+    .redes-sociais .tamanho-icone-01 {
+        width: 15px;
+    }
+
+    .redes-sociais-footer {
+        gap: 5px;
+        grid-template-columns: repeat(4, 25px);
+    }
+
+    .logo_footer {
+        margin-top: 0;
+        width: 50%;
+    }
+
+    .alinhar-logo-footer {
+        display: flex;
+        justify-content: right;
+        align-items: center;
+    }
+
+    .sobre-nos {
+        padding: 20px 30px;
+        width: 312px;
+        height: 550px;
+    }
+
+    .sobre-nos-conteudo {
+        flex-direction: column-reverse;
+    }
+
+    #sobre-nos-texto {
+        width: auto;
+        gap: 10px;
+        font-size: 0.8em;
+    }
+
+    #sobre-nos_nuvens {
+        width: 100%;
+        justify-content: right;
+    }
+
+    #nuvens-sobre {
+        width: 60%;
+    }
+    /* =================== */
+    /* =========MENU========== */
+    .logo-menu-perfil {
+        width: 20%;
+    }
+
+    .estrutura-input-01 {
+        /* width: 55%; */
+        width: 100%;
+        height: 30px;
+        font-size: 0.7em;
+    }
+
+    .texto-menu {
+        font-size: 0.9em;
+    }
+
+    .menu-suspenso .tamanho-icone-01 {
+        width: 20px;
+    }
+
+    .foto-perfil-menu {
+        width: 35px;
+        height: 35px;
+    }
+
+    .opcoes-menu .tamanho-icone-01 {
+        width: 30px;
+    }
+    /* =================== */
+
+    /* =========LOGIN E CADASTRO========== */
+    .container-logo-login-cadastro {
+        display: none;
+    }
+
+    .grid-login-cadastro .secundary-color-background {
+        display: none;
+    }
+
+    .seta-voltar-login-cadastro {
+        margin: 12% 0 0 12%;
+        width: 30px;
+    }
+
+    .container-cadastro {
+        margin: 15% 12%;
+    }
+
+    .container-login {
+        margin: 15% 12%;
+    }
+
+    .titulo-cadastro-login {
+        text-align: left;
+        font-size: 1.3em;
+    }
+
+    .label-cadastro-login {
+        font-size: 0.9em;
+        font-weight: 600;
+    }
+
+    .container-cadastro .espacamento-02 {
+        margin: 20px 0 2px 0;
+    }
+
+    #termos-condicoes p {
+        font-size: 0.9em;
+    }
+
+    input[type="checkbox"] {
+        width: 18px;
+        height: 18px;
+    }
+
+    #esqueceu-senha {
+        font-size: 0.9em;
+        margin-top: 5%;
+    }
+
+    .mostrar {
+        display: flex;
+        flex-direction: column;
+        place-items: center;
+        font-weight: 600;
+        font-size: 0.9em;
+        margin-top: 8%;
+    }
+
+    .grid-login-cadastro {
+        position: relative;
+        grid-template-columns: 1fr;
+    }
+    
+    .botoes-entrar-cadastrar {
+        background-color: var(--color-secundary);
+        color: var(--color-terciary);
+        border-color: var(--color-secundary);
+    }
+
+    #botao-entrar {
+        color: var(--color-primary);
+    }
+    /* =================== */
+
+    /* =========TELA INICIAL========== */
+    .conteudo-principal {
+        margin: 5%;
+    }
+
+    .capa-clube {
+        width: 80px;
+        height: 80px;
+    }
+        .titulo-pagina-inicial {
+        margin: 5% 0;
+    }
+
+    .ver-mais_filtrar {
+        font-size: 0.7em;
+    }
+
+    .capa-livro-01 {
+        width: 90px;
+        height: 120px;
+    }
+
+    .nome-livro, .nome-clube{
+        font-size: 0.7em;
+        max-width: 100%;
+        font-weight: lighter;
+    }
+
+    .para-voce {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 20px;
+    }
+
+    .molde-foto-perfil-post {
+        width: 50px;
+        height: 50px;
+    }
+
+    .apelido-post {
+        font-size: 1em;
+        font-weight: 600;
+    }
+
+    .username-post {
+        font-size: 0.8em;
+    }
+
+    .conteudo-post {
+        font-size: 0.8em;
+    }
+
+    .post-item {
+        padding: 20px;
+    }
+
+    .imagem-post {
+        height: 130px;
+    }
+
+    .criar-post {
+        margin-right: 0;
+    }
+
+    .botao-criar-post {
+        height: 40px;
+        width: 40px;
+    }
+
+    .direitos-autorais {
+        font-size: 0.9em;
+        margin-bottom: 5%;
+    }
+
+    /* =================== */
+    .minha-estante-livros {
+        grid-template-columns: repeat(4, 1fr);
+        gap: 6px;
+    }
+
+    .status-livro {
+        font-size: 0.6em;
+    }
+
+    .seta-voltar {
+        width: 25px;
+    }
+
+    .detalhes-livro {
+        margin: 0 2%;
+        gap: 2px;
+        grid-template-rows: auto;
+    }
+
+    .info-livro {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .capa-livro-02 {
+        height: 190px;
+        width: 140px;
+    }
+
+    .titulo-02 {
+        font-size: 1em;
+    }
+
+    .autor-livro, .ano-publicacao-livro, .sinopse-livro {
+        font-size: 0.8em;
+    }
+
+    .tags {
+        gap: 5px;
+        margin: 2% 0;
+        flex-wrap: wrap;
+    }
+
+    .genero-literario-livro {
+        width: 75px;
+        height: 20px;
+        font-size: 0.8em;
+        border-radius: 8px;
+    }
+
+    .book-stars {
+        width: 40%;
+    }
+
+    .botao-classificar-livro {
+        padding: 0 10px;
+    }
+
+    .icone-classificar {
+        width: 16px;
+        margin-bottom: 2px;
+    }
+
+    .dropdown-menu {
+        top: 110%;
+    }
+
+    .dropdown-menu li {
+        font-size: 0.8em;
+    }
+
+    .acoes-post {
+        margin: 5px 0 15px 5px;
+        gap: 7px;
+    }
+
+    .acoes-post .tamanho-icone-01 {
+        width: 18px;
+    }
+
+    .posts-livro {
+        grid-template-columns: 1fr;
+    }
+
+    .secao-meu-perfil {
+        grid-template-columns: 1fr;
+    }
+
+    .molde-foto-perfil {
+        width: 200px;
+        height: 200px;
+    }
+
+    #alterar-foto-perfil, .label-meu-perfil, .editar-informacoes-perfil .estrutura-input-01 {
+        font-size: 0.8em;
+    }
+
+    .editar-informacoes-perfil {
+        margin-top: 5%;
+    }
+
+    .botoes-meu-perfil {
+        margin-top: 7%;
+        justify-content: space-evenly;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+    .conteudo-modal {
+        width: 90%;
+    }
+    
+    .fechar-modal {
+        right: 7%;
+        top: 5%;
+    }
+
+    .logo-menu {
+        width: 20%;
+        margin: 2% 3%;
+    }
+
+    #botao-cadastro-menu {
+        background-color: var(--color-primary);
+        color: var(--color-secundary);
+    }
+
+    .opcoes-menu-index {
+        margin: 2% 3%;
+    }
+
+    #logo-secao-principal {
+        width: 15%;
+    }
+
+    .container-texto-secao-principal {
+        top: 300px;
+        margin: 0 5%;
+    }
+
+    .titulo-secao-principal {
+        font-size: 1.5em;
+    }
+
+    .texto-secao-principal {
+        width: 100%;
+        font-size: 1em;
+        max-width: 550px;
+        font-weight: 500;
+    }
+
+    .container-botoes-secao-principal {
+        top: 430px;
+    }
+
+    .container-botoes-secao-principal .estrutura-botao-01 {
+        background-color: var(--color-secundary);
+        color: var(--color-primary);
+    }
+
+    #efeito-nuvem-secao-principal {
+        top: 85%;
+    }
+
+    #titulo-segunda-secao {
+        font-size: 1.4em;
+    }
+
+    #texto-segunda-secao {
+        margin: 0 5%;
+        font-size: 1.4em;
+        width: 100%;
+        max-width: 550px;
+    }
+
+    .div-espacamento {
+        height: 100px;
+    }
+
+    #texto-quarta-secao {
+        font-size: 1.4em;
+        width: 100%;
+        max-width: 400px;
+        margin-top: 3%;
+    }
+
+    .container-cards {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card {
+        width: 50%;
+        height: 30%;
+        margin-bottom: 5%;
+    }
+
+      .icone-card {
+        width: 60px;
+        height: 60px;
+        margin-top: -8%;
+        bottom: auto;
+    }
+
+    .icone-card svg {
+        margin-top: 15px;
+    }
+
+    .titulo-card {
+        font-size: 1em;
+        margin-top: 8%;
+    }
+
+    .descricao-card {
+        font-size: 0.9em;
+    }
+
+    .nome-genero-literario h4 {
+        font-size: 0.9em;
+    }
+
+    .nome-genero-literario {
+        width: 75%;
+        height: 50px;
+    }
+
+    .pin {
+        width: 15px;
+        height: 15px;
+        border: 5px solid var(--color-secundary);
+    }
+
+    .container-generos-literarios {
+        height: 150px;
+    }
+
+    .generos-literarios {
+        margin: -3% 0 3% 0;
+        gap: 3px;
+        width: 90%;
+    }
+
+    .genero-literario {
+        width: 120px;
+        height: 30px;
+        font-size: 0.9em;
+    }
+
+    #manga, #new-adult {
+        display: none;
+    }
+
+    .container-quarta-secao {
+        flex-direction: column;
+        place-items: center;
+    }
+
+    #logo-quarta-secao {
+        width: 50%;
+    }
+
+    .container-informacao {
+        padding: 0;
+    }
+
+    .botoes-quarta-secao .estrutura-botao-01 {
+        background-color: var(--color-terciary);
+        color: var(--color-secundary);
+    }
+
+    .efeito-nuvem-footer {
+        margin-bottom: -70px;
+    }
+
+    .secao-footer {
+        padding: 4%;
+    }
+
+    .menu-footer {
+        font-size: 0.9em;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 8px;
+    }
+
+    .redes-sociais {
+        width: 30px;
+        height: 30px;
+    }
+
+    .redes-sociais-footer {
+        gap: 7px;
+        grid-template-columns: repeat(4, 30px);
+    }
+
+    .redes-sociais .tamanho-icone-01 {
+        width: 16px;
+    }
+
+    .direitos-autorais-footer {
+        margin-top: 15px;
+        font-size: 0.9em;
+    }
+
+    .alinhar-logo-footer {
+        display: flex;
+        justify-content: center;
+    }
+
+    .logo_footer {
+        width: 70%;
+    }
+
+    .sobre-nos {
+        width: 90%;
+        height: auto;
+        padding: 30px;
+    }
+
+    #nuvens-sobre {
+        width: 70%;
+    }
+
+    #sobre-nos-texto {
+        font-size: 1em;
+        width: 100%;
+    }
+
+    .sobre-nos-conteudo {
+        flex-direction: column-reverse;
+    }
+
+    #sobre-nos_nuvens {
+        width: 100%;
+        justify-content: right;
+    }
+
+    
+    .container-logo-login-cadastro {
+        display: none;
+    }
+
+    .grid-login-cadastro .secundary-color-background {
+        display: none;
+    }
+
+    .seta-voltar-login-cadastro {
+        margin: 10% 0 0 10%;
+        width: 40px;
+    }
+
+    .container-cadastro {
+        margin: 10%;
+    }
+
+    .container-login {
+        margin: 10%;
+    }
+
+    .titulo-cadastro-login {
+        text-align: left;
+        font-size: 1.4em;
+    }
+
+    .label-cadastro-login {
+        font-weight: 600;
+        font-size: 1.1em;
+    }
+
+    .container-cadastro .espacamento-02 {
+        margin: 20px 0 2px 0;
+    }
+
+    #termos-condicoes p {
+        font-size: 1.1em;
+    }
+
+    input[type="checkbox"] {
+        width: 19px;
+    }
+
+    #botao-entrar {
+        height: 50px;
+        font-size: 1em;
+        color: var(--color-primary);
+    }
+
+    #cadastro-cadastrar-btn {
+        height: 50px;
+        font-size: 1em;
+    } 
+
+    #esqueceu-senha {
+        font-size: 1.1em;
+        margin-top: 5%;
+    }
+
+    .mostrar {
+        display: flex;
+        flex-direction: column;
+        place-items: center;
+        font-weight: 600;
+        font-size: 1.1em;
+        margin-top: 8%;
+    }
+
+    .grid-login-cadastro {
+        position: relative;
+        grid-template-columns: 1fr;
+    }
+    
+    .botoes-entrar-cadastrar {
+        background-color: var(--color-secundary);
+        color: var(--color-terciary);
+        border-color: var(--color-secundary);
+    }
+
+    .logo-menu-perfil {
+        width: 20%;
+    }
+
+    .minha-estante-livros .item-livro:nth-child(5), .minha-estante-livros .item-livro:nth-child(6) {
+        display: none;
+    }
+
+    .clubes-do-livro .item-clube:nth-child(5), .clubes-do-livro .item-clube:nth-child(6) {
+        display: none;
+    }
+
+    .minha-estante-livros {
+        grid-template-columns: repeat(4, 1fr);
+        gap: 10px;
+    }
+
+    .clubes-do-livro {
+        grid-template-columns: repeat(4, 1fr);
+        gap: 5px;
+    }
+
+    .capa-livro-01 {
+        width: 100%;
+        height: 170px;
+    }
+
+    .capa-clube {
+        width: 115px;
+        height: 115px;
+    }
+
+    .titulo-01 {
+        font-size: 1.2em;
+    }
+
+    .nome-livro, .nome-clube {
+        font-size: 0.9em;
+        white-space: unset;
+    }
+
+    .post-item {
+        width: 90%;
+    }
+
+    .para-voce {
+        grid-template-columns: 1fr;
+        gap: 25px;
+        place-items: center;
+    }
+
+    .molde-foto-perfil-post {
+        width: 55px;
+        height: 55px;
+    }
+
+    .apelido-post {
+        font-size: 1.1em;
+    }
+
+    .conteudo-post {
+        font-size: 1em;
+        margin: 14% 2% 3% 2%;
+    }
+
+    .botao-criar-post {
+        width: 50px;
+        height: 50px;
+    }
+
+    .info-livro {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .capa-livro-02 {
+        height: 290px;
+        width: 230px;
+    }
+
+    .titulo-02 {
+        font-size: 1.2em;
+    }
+
+    .autor-livro, .ano-publicacao-livro {
+        font-size: 0.9em;
+        width: 100%;
+        max-width: 200px;
+    }
+
+    .detalhes-livro {
+        gap: 5px;
+        grid-template-rows: auto;
+    }
+
+    .book-stars {
+        width: 120px;
+    }
+
+    .detalhes-livro .genero-literario-livro {
+        width: 85px;
+        height: 25px;
+        font-size: 0.9em;
+    }
+
+    .info-livro .ocultar {
+        display: none;
+    }
+
+    .tags {
+        width: 100%;
+        gap: 3px;
+        flex-wrap: wrap;
+    }
+
+    .posts-livro {
+        grid-template-columns: 1fr;
+        place-items: center;
+        gap: 25px;
+    }
+
+    .status-livro {
+        font-size: 0.9em;
+    }
+
+    .titulo-minha-estante {
+        font-size: 1.2em;
+    }
+
+    #alterar-foto-perfil {
+        font-size: 1.1em;
+    }
+
+    .editar-foto-perfil {
+        margin-bottom: 20px;
+    }
+
+    .editar-informacoes-perfil .estrutura-botao-01 {
+        width: 100%;
+        height: 50px;
+        font-size: 1em;
+    }
+
+    h2 {
+        font-size: 1.3em;
+    }
+
+    .genero-literario {
+        width: 130px;
+        height: 35px;
+        font-size: 1em;
+    }
+
+    .titulo-pagina-inicial {
+        margin: 4% 0;
+    }
+
+    .imagem-post {
+        height: 150px;
+    }
+
+    .botoes-meu-perfil {
+        justify-content: center;
+        gap: 10px;
+    }
+
+    .estrutura-botao-01 {
+        width: 160px;
+        height: 35px;
+        font-size: 0.8em;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .conteudo-modal {
+        width: 80%;
+    }
+    
+    .fechar-modal {
+        right: 12%;
+        top: 6%;
+    }
+
+    .logo-menu {
+        width: 15%;
+        margin: 2% 3%;
+    }
+
+    #botao-cadastro-menu {
+        background-color: var(--color-primary);
+        color: var(--color-secundary);
+    }
+
+    .opcoes-menu-index {
+        margin: 2% 3%;
+    }
+
+    #logo-secao-principal {
+        width: 15%;
+    }
+
+    .container-texto-secao-principal {
+        top: 300px;
+        margin: 0 5%;
+    }
+
+    .titulo-secao-principal {
+        font-size: 1.5em;
+    }
+
+    .texto-secao-principal {
+        width: 100%;
+        font-size: 1.2em;
+        max-width: 650px;
+        font-weight: 500;
+    }
+
+    .container-botoes-secao-principal {
+        top: 450px;
+    }
+
+    .container-botoes-secao-principal .estrutura-botao-01 {
+        background-color: var(--color-secundary);
+        color: var(--color-primary);
+    }
+
+    #efeito-nuvem-secao-principal {
+        top: 82%;
+    }
+
+    .container-cards {
+        gap: 10px;
+    }
+
+    .card {
+        width: 50%;
+        height: auto;
+    }
+
+    .icone-card {
+        width: 70px;
+        height: 70px;
+        margin-bottom: 140px;
+    }
+
+    .icone-card svg {
+        margin-top: 17px;
+    }
+
+    .titulo-card {
+        font-size: 1.2em;
+    }
+
+    #titulo-segunda-secao {
+        font-size: 1.7em;
+    }
+
+    #texto-segunda-secao {
+        font-size: 1.4em;
+        width: 100%;
+        max-width: 600px;
+    }
+
+    #texto-quarta-secao {
+        font-size: 1.4em;
+        width: 100%;
+        max-width: 450px;
+    }
+
+    #logo-quarta-secao {
+        width: 45%;
+    }
+
+    .container-informacao {
+        padding-left: 10px;
+    }
+
+    .estrutura-botao-01 {
+        width: 180px;
+    }
+
+    .efeito-nuvem-footer {
+        margin-bottom: -90px;
+    }
+
+    .menu-footer {
+        font-size: 1.1em;
+    }
+
+    .secao-footer {
+        padding: 3%;
+    }
+
+    .logo_footer {
+        width: 90%;
+        margin-top: 50px;
+    }
+
+    .redes-sociais {
+        width: 45px;
+        height: 45px;
+    }
+
+    .redes-sociais-footer {
+        gap: 5px;
+    }
+
+    .direitos-autorais-footer {
+        margin-top: 15px;
+    }
+
+    .botoes-quarta-secao .estrutura-botao-01 {
+        background-color: var(--color-terciary);
+        color: var(--color-secundary);
+    }
+
+    .nome-genero-literario {
+        width: 80%;
+        height: 30%;
+    }
+
+    .nome-genero-literario h4 {
+        font-size: 1.2em;
+    }
+
+    .generos-literarios {
+        width: 90%;
+    }
+
+    .genero-literario {
+        width: 180px;
+        height: 35px;
+    }
+
+    .sobre-nos-conteudo {
+        flex-direction: column-reverse;
+    }
+
+    .sobre-nos {
+        width: 90%;
+        height: auto;
+        padding: 30px;
+    }
+
+    #nuvens-sobre {
+        width: 60%;
+    }
+
+    #sobre-nos-texto {
+        font-size: 1.1em;
+        width: 100%;
+    }
+
+    .sobre-nos-conteudo {
+        flex-direction: column-reverse;
+    }
+
+    #sobre-nos_nuvens {
+        width: 100%;
+        justify-content: right;
+    }
+
+    .container-logo-login-cadastro {
+        display: none;
+    }
+
+    .grid-login-cadastro .secundary-color-background {
+        display: none;
+    }
+
+    .seta-voltar-login-cadastro {
+        margin: 12% 0 0 12%;
+        width: 50px;
+    }
+
+    .container-cadastro {
+        margin: 12%;
+    }
+
+    .container-login {
+        margin: 12%;
+    }
+
+    .titulo-cadastro-login {
+        text-align: left;
+    }
+
+    .label-cadastro-login {
+        font-weight: 600;
+    }
+
+    .container-cadastro .espacamento-02 {
+        margin: 20px 0 2px 0;
+    }
+
+    #termos-condicoes p {
+        font-size: 1.1em;
+    }
+
+    input[type="checkbox"] {
+        width: 19px;
+    }
+
+    #esqueceu-senha {
+        font-size: 1.1em;
+        margin-top: 5%;
+    }
+
+    .mostrar {
+        display: flex;
+        flex-direction: column;
+        place-items: center;
+        font-weight: 600;
+        font-size: 1.1em;
+        margin-top: 8%;
+    }
+
+    .grid-login-cadastro {
+        position: relative;
+        grid-template-columns: 1fr;
+    }
+    
+    .botoes-entrar-cadastrar {
+        background-color: var(--color-secundary);
+        color: var(--color-terciary);
+        border-color: var(--color-secundary);
+    }
+
+    #botao-entrar {
+        color: var(--color-primary);
+    }
+
+    .logo-menu-perfil {
+        width: 15%;
+    }
+
+    .minha-estante-livros .item-livro:nth-child(5){
+        display: none;
+    }
+
+    .clubes-do-livro .item-clube:nth-child(5){
+        display: none;
+    }
+
+    .minha-estante-livros {
+        grid-template-columns: repeat(5, 1fr);
+        gap: 10px;
+    }
+
+    .clubes-do-livro {
+        grid-template-columns: repeat(5, 1fr);
+        gap: 5px;
+    }
+
+    .capa-livro-01 {
+        width: 100%;
+        height: 180px;
+    }
+
+    .capa-clube {
+        width: 125px;
+        height: 125px;
+    }
+    .titulo-01 {
+        font-size: 1.4em;
+    }
+
+    .nome-livro, .nome-clube {
+        font-size: 1.1em;
+    }
+
+    .nome-clube {
+        white-space: unset;
+    }
+
+    .post-item {
+        width: 100%;
+    }
+
+    .para-voce {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 15px;
+    }
+
+    .molde-foto-perfil-post {
+        width: 55px;
+        height: 55px;
+    }
+
+    .apelido-post {
+        font-size: 1.1em;
+    }
+
+    .conteudo-post {
+        font-size: 1em;
+        margin: 15% 2% 3% 2%;
+    }
+
+    .imagem-post {
+        height: 150px;
+    }
+
+    .botao-criar-post {
+        width: 50px;
+        height: 50px;
+    }
+
+    .info-livro {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .dropdown-wrapper .estrutura-botao-01 {
+        width: 200px;
+    }
+
+    .capa-livro-02 {
+        height: 315px;
+        width: 270px;
+    }
+
+    .secao-meu-perfil {
+        grid-template-columns: 1fr;
+    }
+
+    .molde-foto-perfil {
+        width: 250px;
+        height: 250px;
+    }
+
+    .editar-foto-perfil {
+        margin-bottom: 20px;
+    }
+    
+    #alterar-foto-perfil {
+        font-size: 1.1em;
+    }
+}
